@@ -1,5 +1,6 @@
 h1 {
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 #descricao {
@@ -20,4 +21,19 @@ body {
 
 .skills {
     font-size: 20px;
+}
+
+.sobre {
+    display: inline-flex;
+}
+
+#my-photo {
+    background-color: black;
+    padding: 10px;
+    margin: 15px;
+    width: 150px;
+}
+
+ul li:nth-child(odd) {
+    text-decoration: underline;
 }
