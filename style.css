@@ -33,3 +33,7 @@ body {
     margin: 15px;
     width: 150px;
 }
+
+ul li:nth-child(odd) {
+    text-decoration: underline;
+}
